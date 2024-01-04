@@ -3,72 +3,70 @@
 }
 
 body {
-  font-family: sans-serif;
-  margin: 20px;
+  font-family: "Arial", sans-serif;
+  margin: 40px;
   padding: 0;
+  font-size: 18px;
+  background-color: #f0f0f0; /* Set a light background color for the whole page */
+  color: #333; /* Set the text color to a dark gray */
 }
 
 h1 {
-  margin-top: 0;
-  font-size: 22px;
+  font-size: 28px;
+  color: #007bff; /* Set h1 text color to a blue shade */
 }
 
 h2 {
-  margin-top: 0;
-  font-size: 20px;
+  font-size: 26px;
+  color: #ff5733; /* Set h2 text color to an orange shade */
 }
 
 h3 {
-  margin-top: 0;
-  font-size: 18px;
+  font-size: 24px;
+  color: #4caf50; /* Set h3 text color to a green shade */
 }
 
 h4 {
-  margin-top: 0;
-  font-size: 16px;
+  font-size: 22px;
+  color: #f57c00; /* Set h4 text color to a dark orange shade */
 }
 
 h5 {
-  margin-top: 0;
-  font-size: 14px;
+  font-size: 20px;
+  color: #9c27b0; /* Set h5 text color to a purple shade */
 }
 
 h6 {
-  margin-top: 0;
-  font-size: 12px;
+  font-size: 18px;
+  color: #e91e63; /* Set h6 text color to a pink shade */
 }
 
 code {
-  font-size: 1.2em;
+  font-size: 1.4em;
+  background-color: #f4f4f4;
+  padding: 5px;
+  color: #333; /* Set code text color to dark gray */
 }
 
 ul {
-  padding-inline-start: 20px;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: sans-serif;
-  margin: 20px;
-  padding: 0;
+  padding-inline-start: 40px;
+  color: #333; /* Set ul text color to dark gray */
 }
 
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #f0f0f0;
+  border: 2px solid #666;
   float: left;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
-  margin-right: -1px;
-  margin-top: -1px;
+  line-height: 50px;
+  height: 50px;
+  margin-right: -2px;
+  margin-top: -2px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 50px;
+  color: #333; /* Set square text color to dark gray */
 }
 
 .board-row:after {
@@ -78,13 +76,18 @@ body {
 }
 
 .status {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #007bff; /* Set status text color to blue */
 }
+
 .game {
   display: flex;
   flex-direction: row;
 }
 
 .game-info {
-  margin-left: 20px;
+  margin-left: 40px;
+  font-size: 20px;
+  color: #333; /* Set game-info text color to dark gray */
 }
